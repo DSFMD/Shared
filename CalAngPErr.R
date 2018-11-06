@@ -1,4 +1,6 @@
+# DSFMD - Dynamic Systems Framework for Movement Data
 # function to predict timeseries t2 using time series t1
+# Code by Ingo Schiffner 2018
 
 # INPUT:
 # input are 2 N*M matrices containting M dimensional positional information (presumed to be ordered in time)

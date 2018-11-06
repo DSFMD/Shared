@@ -1,6 +1,8 @@
+# DSFMD - Dynamic Systems Framework for Movement Data
 # function to calculate normalized mutual information between two variables
 # input x and y have to be of equal length
-# code by Ingo Schiffner
+# Code by Ingo Schiffner 2018
+
 CalNMI <- function(x,y)
 {
   library(infotheo)

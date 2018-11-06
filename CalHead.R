@@ -1,5 +1,7 @@
-#function to calculate heading over a set of x,y coordinates
-#code by Ingo Schiffner
+# DSFMD - Dynamic Systems Framework for Movement Data
+# function to calculate heading over a set of x,y coordinates
+# Code by Ingo Schiffner 2018
+
 CalHead <- function (x,y)
 {
   #remove na values

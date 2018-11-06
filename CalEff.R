@@ -1,5 +1,6 @@
-#function to determine track efficency over a set of x,y coordinates
-#code by Ingo Schiffner
+# DSFMD - Dynamic Systems Framework for Movement Data
+# function to determine track efficency over a set of x,y coordinates
+# Code by Ingo Schiffner 2018
 CalEff <- function (x,y)
 {
   #remove na values

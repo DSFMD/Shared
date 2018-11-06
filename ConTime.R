@@ -1,4 +1,7 @@
-#convert seconds to HH:MM:SS format
+# DSFMD - Dynamic Systems Framework for Movement Data
+# function to convert seconds to HH:MM:SS format (got fed up with posixct :)
+# Code by Ingo Schiffner 2018
+
 ConTime <- function (t)
 {
   H <- t %/% 3600

@@ -1,10 +1,12 @@
+# DSFMD - Dynamic Systems Framework for Movement Data
 # function to calculate virtual vanishing bearings
 # with...
 # t_dat data.frame with X and Y coordinates (UTM)
 # sdx location index
 # loc_dt data table containing the location of all release sites
 # vdx indices at which vanishing bearings are to be calculated
-# code by Dr. Ingo Schiffner 2018
+# Code by Ingo Schiffner 2018
+
 GetVVB <- function (t_dat,sdx,loc_dt,vdx)
 {
   #calculation of distance and direction from release site

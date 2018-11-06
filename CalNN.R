@@ -1,4 +1,6 @@
+# DSFMD - Dynamic Systems Framework for Movement Data
 # function to calculate mean nearest neighbour distance between 2 time series
+# Code by Ingo Schiffner 2018
 
 # INPUT:
 # input are 2 N*M matrices containting M dimensional positional information (presumed to be ordered in time)

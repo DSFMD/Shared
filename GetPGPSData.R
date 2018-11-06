@@ -1,3 +1,7 @@
+# DSFMD - Dynamic Systems Framework for Movement Data
+# wrapper function to read GPS files
+# Code by Ingo Schiffner 2018
+
 GetPGPSData <- function (fullfile)
 {
   TimeZone <- 'UTC'

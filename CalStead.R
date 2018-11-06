@@ -1,5 +1,7 @@
-#function to determine steadiness over a set of x,y coordinates
-#code by Ingo Schiffner
+# DSFMD - Dynamic Systems Framework for Movement Data
+# function to determine steadiness over a set of x,y coordinates
+# Code by Ingo Schiffner 2018
+
 CalStead <- function (x,y)
 {
   #remove na values

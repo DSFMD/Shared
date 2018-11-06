@@ -1,4 +1,7 @@
-#histogram based ranking
+# DSFMD - Dynamic Systems Framework for Movement Data
+# histogram based ranking function
+# Code by Ingo Schiffner 2018
+
 RankHist <- function (x)
 {
   bin <- floor(log(length(x))/ log(2))

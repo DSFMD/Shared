@@ -1,3 +1,7 @@
+# DSFMD - Dynamic Systems Framework for Movement Data
+# wrapper function for comparing gps data of two tracks and calculating similarity indices
+# Code by Ingo Schiffner 2018
+
 CalSimil <- function (bxy,cxy)
 {
   
