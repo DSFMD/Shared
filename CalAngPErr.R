@@ -68,11 +68,9 @@ CalAngPErr <- function(t1,t2,h1,h2)
   #make sure angles dont exceed 180 
   exd<-which(p_err_mat > 180)
   p_err_mat[exd]<-abs(p_err_mat[exd]-180)
-  
-  
   sin_err <- rowSums(sin(p_err_mat*pi/180), na.rm=T)
   cos_err <- rowSums(cos(p_err_mat*pi/180), na.rm=T)
-  ang_err <-  cart2pol(sin_err , cos_err, degrees = T)
+  ang_err <-  cart2pol(cos_err, sin_err, degrees = T)
   ang_err <- ang_err$theta
   exd<-which(ang_err > 180)
   ang_err[exd]<-abs(ang_err[exd]-180)
